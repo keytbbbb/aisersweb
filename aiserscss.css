@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between h1 and nav */
+    align-items: center; /* Align items vertically */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.8em; /* Adjust font size if needed */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #0066cc;
+    padding: 10px 20px; /* Match header padding */
+    gap: 15px; /* Add spacing between navigation links */
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e6f2ff;
+}
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Add styles for the tables */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+table th {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+}
+table td {
+    padding: 15px;
+    font-size: 1em;
+    color: #333;
+}
+table tr:nth-child(even) {
+    background-color: #e6f2ff;
+}
+table tr:hover {
+    background-color: #d9e6f2;
+    transition: background-color 0.3s ease;
+}
